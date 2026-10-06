@@ -1,0 +1,11 @@
+[project]
+name = "job-application-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.12",
+    "pygraphviz>=2.0.3",
+]
